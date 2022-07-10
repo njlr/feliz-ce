@@ -2,6 +2,7 @@
   "private": true,
   "workspaces": [
     "examples/counter",
+    "examples/two-counters",
     "examples/ref",
     "examples/timer"
   ]

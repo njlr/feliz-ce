@@ -1,0 +1,18 @@
+{
+  "name": "two-counters",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "dotnet fable watch . --run webpack-dev-server"
+  },
+  "private": true,
+  "dependencies": {
+    "react": "^17",
+    "react-dom": "^17"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
