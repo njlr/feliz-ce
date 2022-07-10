@@ -1,0 +1,12 @@
+bin
+obj
+
+.paket
+paket-files
+
+node_modules
+
+fable_modules
+*.fs.js
+
+.vscode
