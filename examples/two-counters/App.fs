@@ -3,7 +3,7 @@
 open Feliz
 open Feliz.CE
 
-let counter initialCount =
+let twoCounters =
   react {
     let! count1, setCount1 = React.withState 0
     and! count2, setCount2 = React.withState 0
@@ -28,4 +28,4 @@ let counter initialCount =
 
 open Browser.Dom
 
-ReactDOM.render(counter 0, document.getElementById "root")
+ReactDOM.render(twoCounters, document.getElementById "root")
